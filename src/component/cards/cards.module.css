@@ -1,0 +1,31 @@
+.items{
+    display: table;
+    width: 100%;
+}
+.card{
+    padding: 15spx;
+    display: table-cell;
+    vertical-align: top;
+    font-weight: 400;
+}
+.records{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card > span{
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    padding: 10px 0;
+}
+
+.infected h1{
+    color:rgb(255, 145, 0)
+}
+.recoved h1{
+    color:rgb(4, 119, 48)
+}
+.deaths h1{
+    color:rgba(255, 0, 0, 0.938)
+}
